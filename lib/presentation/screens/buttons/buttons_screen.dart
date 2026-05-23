@@ -15,7 +15,7 @@ class ButtonsScreen extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton.extended(
         backgroundColor: Colors.redAccent,
-        label: const Text('⬅️ Regresar'),
+        label: const Text('®️ Regresar'),
         icon: const Icon(Icons.arrow_back_ios_new_rounded),
         onPressed: () => context.pop(),
       ),
@@ -50,7 +50,7 @@ class _ButtonsView extends StatelessWidget {
             ),
             const ElevatedButton(
               onPressed: null,
-              child: Text('❌ Disabled'),
+              child: Text(' Di👎👎👎🙅‍♀️sabled'),
             ),
 
             ElevatedButton.icon(
