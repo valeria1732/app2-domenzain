@@ -10,7 +10,7 @@ class ButtonsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('🎛️ Botones'),
+        title: const Text('🎛️   Botones'),
         centerTitle: true,
       ),
       floatingActionButton: FloatingActionButton.extended(
@@ -46,11 +46,11 @@ class _ButtonsView extends StatelessWidget {
                 foregroundColor: Colors.white,
               ),
               onPressed: () {},
-              child: const Text('🚀 Elevated'),
+              child: const Text('🚀    Elevated'),
             ),
             const ElevatedButton(
               onPressed: null,
-              child: Text(' Di👎👎👎🙅‍♀️sabled'),
+              child: Text(' Di👎👎  👎🙅‍♀️sabled'),
             ),
 
             ElevatedButton.icon(
